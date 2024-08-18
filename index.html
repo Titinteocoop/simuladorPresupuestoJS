@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presupuesto</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="./costos.js"></script>
+  <script defer src="./utils.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="titulo">Project Manager</h1>
+    <p>
+      Evalúa el costo y el tiempo de cada tarea teniendo en cuenta su
+      dificultad. Esto te permitirá determinar cuántos recursos necesitas
+      asignar, definir los sprints, establecer fechas de entregas parciales y
+      finales, y gestionar tu proyecto de manera eficiente. Con esta
+      información, podrás optimizar tus cotizaciones y planificar con mayor
+      claridad.
+    </p>
+  </header>
+  
+  <section id="inicio" class="agregar">
+    <div class="agregarProyectoCosto">
+      <input
+        type="button"
+        value="Presupuestar nuevo"
+        id="botonPresupuestarNuevo"
+        class="botonAgregar"
+      />
+    </div>
+  </section>
+
+  <section id="tareas" class="tarea">
+    <div class="agregarProyectoCosto">
+      <h2>Tareas</h2>
+      <div id="taskListDiv"></div>
+      <input
+        type="button"
+        value="Agregar Requerimiento"
+        id="botonAgregarRequerimiento"
+        class="botonAgregar"
+      />
+    </div>
+    <div class="agregarProyectoCosto">
+      <h4>Nombre del Proyecto</h4>
+      <input type="text" id="agregarProyecto" class="campoAgregar" />
+      <h2>Requerimientos:</h2>
+      <ul id="requerimientosLista"></ul>
+      <input
+        type="button"
+        value="Finalizar Lista"
+        id="botonFinalizarLista"
+        class="botonAgregar"
+      />
+    </div>
+  </section>
+
+  <section id="resultadoCosto" class="resultado">
+    <div class="agregarProyectoCosto">
+      <h3 id="costoTotal">Costo total estimado: $0.00 USD</h3>
+    </div>
+  </section>
+
+  <section id="resultadoChart" class="resultado">
+
+    <canvas id="resultadoChartCanvas" width="1000" height="400"></canvas>
+    <div class="guardarPresupuesto">
+      <input
+        type="button"
+        value="Descargar"
+        id="botonGuardarPdf"
+        class="botonAgregar"
+      />
+    </div>
+  </section>
+</body>
+</html>

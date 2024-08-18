@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "task": "Investigación de usuarios y análisis de requisitos",
+    "valorHora": 12,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 3
+  },
+  {
+    "id": 2,
+    "task": "Diseño de la arquitectura de la información",
+    "valorHora": 14,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 2
+  },
+  {
+    "id": 3,
+    "task": "Creación de wireframes",
+    "valorHora": 10,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 3
+  },
+  {
+    "id": 4,
+    "task": "Diseño de prototipos interactivos",
+    "valorHora": 15,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 4
+  },
+  {
+    "id": 5,
+    "task": "Diseño visual (UI Design)",
+    "valorHora": 18,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 5
+  },
+  {
+    "id": 6,
+    "task": "Desarrollo de frontend",
+    "valorHora": 16,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 6
+  },
+  {
+    "id": 7,
+    "task": "Desarrollo de backend",
+    "valorHora": 20,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 8
+  },
+  {
+    "id": 8,
+    "task": "Diseño y desarrollo de base de datos",
+    "valorHora": 22,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 7
+  },
+  {
+    "id": 9,
+    "task": "Configuración de servidor y despliegue",
+    "valorHora": 18,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 4
+  },
+  {
+    "id": 10,
+    "task": "Integración de API externas",
+    "valorHora": 20,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 3
+  },
+  {
+    "id": 11,
+    "task": "Implementación de autenticación y autorización",
+    "valorHora": 25,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 4
+  },
+  {
+    "id": 12,
+    "task": "Desarrollo de funcionalidades avanzadas",
+    "valorHora": 23,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 6
+  },
+  {
+    "id": 13,
+    "task": "Pruebas unitarias",
+    "valorHora": 15,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 3
+  },
+  {
+    "id": 14,
+    "task": "Pruebas de integración",
+    "valorHora": 18,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 4
+  },
+  {
+    "id": 15,
+    "task": "Optimización de rendimiento",
+    "valorHora": 22,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 5
+  },
+  {
+    "id": 16,
+    "task": "Implementación de seguridad (SSL, encriptación, etc.)",
+    "valorHora": 28,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 4
+  },
+  {
+    "id": 17,
+    "task": "Revisión de código y auditoría",
+    "valorHora": 17,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 2
+  },
+  {
+    "id": 18,
+    "task": "Documentación técnica y del usuario",
+    "valorHora": 12,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 4
+  },
+  {
+    "id": 19,
+    "task": "Despliegue y mantenimiento",
+    "valorHora": 20,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 6
+  },
+  {
+    "id": 20,
+    "task": "Soporte post-lanzamiento y actualizaciones",
+    "valorHora": 18,
+    "complexity": { "easy": 1, "normal": 1.5, "hard": 2 },
+    "semanas": 10
+  }
+]
